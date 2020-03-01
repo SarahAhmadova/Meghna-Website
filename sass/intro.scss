@@ -1,0 +1,145 @@
+@import 'reset';
+
+header {
+
+ .banner {
+    background-image: url('http://demo.themefisher.com/meghna/images/banner/hero-area.jpg');
+    background-color: rgba(0, 0, 0, 0.67);
+    background-blend-mode: color;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+ }
+ nav{
+     height: 72px;
+     .container-fluid{
+        display: flex;
+        justify-content: space-between;
+     }
+ }
+
+nav>div{
+    position: absolute;
+}
+
+ .text{
+     text-align: center;
+     color: white;
+     width: 70%;
+
+     h1{
+         font-size: 6vw;
+     }
+     p{
+        font-size: 20px;
+      
+     }
+     a{
+        margin-top: 40px;
+        border-color: #fff;
+        color: #fff !important;
+        padding: 14px 50px;
+        border-radius: 0;
+        &:hover{
+            background-color: #57cbcc;
+            transition: .6s;
+        }
+     }
+
+ }
+ 
+ .menu {
+     float: right;
+     
+     a{
+        font-size: 16px;
+        color: #737f8a;
+        &:hover{
+            color: #57cbcc;
+        }
+     }
+ }
+.brand{
+    float: left;
+}
+}
+
+.icon {
+    background-color: white;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    &>span{
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 8px 0 8px 14px;
+        border-color: transparent transparent transparent rgb(87, 203, 204);
+        border-radius: 3px;
+    }
+
+}
+.container-fluid {
+    background-color:rgb(29, 32, 36);
+    padding: 1rem;
+ }
+
+ #about {
+    background-color:rgb(53, 59, 67);
+
+
+h1{
+    color: white;
+    span{
+        color:rgb(87, 203, 204);
+    }
+}
+
+
+.block{
+    padding: 0px 0;
+    background-color: #242930;
+
+    .icon-box{
+        position: relative;
+    width: 160px;
+    height: 92.38px;
+    background-color: transparent;
+    margin: 46.19px auto 60px;
+    padding: 20px 0;
+    border-left: 2px solid rgba(236, 239, 241, 0.07);
+    border-right: 2px solid rgba(236, 239, 241, 0.07);
+    font-size: 50px;
+    -webkit-transform: translateZ(0px);
+    transform: translateZ(0px);
+    transition-duration: 0.3s;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    }
+     .icon-box:before, .icon-box::after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        width: 113.14px;
+        height: 113.14px;
+        background-color: inherit;
+        left: 20.4315px;
+        -webkit-transform: scaleY(0.5774) rotate(-45deg);
+        transform: scaleY(0.5774) rotate(-45deg);
+     }
+     .icon-box::before{
+        top: -56.5685px;
+        border-top: 2px solid rgba(236, 239, 241, 0.07);
+        border-right: 2px solid rgba(236, 239, 241, 0.07);
+}
+.icon-box::after{
+    bottom: -56.5685px;
+    border-bottom: 2px solid rgba(236, 239, 241, 0.07);
+    border-left: 2px solid rgba(236, 239, 241, 0.07);
+}
+    
+}
+ }
